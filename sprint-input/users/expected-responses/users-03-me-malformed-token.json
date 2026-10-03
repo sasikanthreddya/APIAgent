@@ -1,0 +1,10 @@
+{
+  "status": 401,
+  "body": {
+    "error": "Unauthorized",
+    "status": 401,
+    "message": "A valid Bearer token is required for GET /users/me"
+  },
+  "dynamic_fields": [],
+  "notes": "Captured live 2026-09-23. Identical response to the no-token case - a garbage bearer value is treated the same as no header at all, not a distinct 'invalid token' error. Worth calling out explicitly since it's easy to assume otherwise."
+}

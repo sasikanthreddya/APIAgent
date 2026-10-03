@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "path": "/users/register",
+  "auth": "none",
+  "body": {
+    "email": "x.<unique>@toolshop.test"
+  }
+}

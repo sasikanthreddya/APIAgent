@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "path": "/users/register",
+  "auth": "none",
+  "body": {
+    "first_name": "A",
+    "last_name": "B",
+    "email": "not-an-email",
+    "password": "Password123!"
+  }
+}

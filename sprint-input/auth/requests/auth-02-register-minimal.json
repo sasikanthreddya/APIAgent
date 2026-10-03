@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "path": "/users/register",
+  "auth": "none",
+  "body": {
+    "first_name": "Min",
+    "last_name": "Imal",
+    "email": "min.<unique>@toolshop.test",
+    "password": "Password123!"
+  }
+}

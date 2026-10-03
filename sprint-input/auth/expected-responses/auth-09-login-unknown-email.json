@@ -1,0 +1,11 @@
+{
+  "status": 401,
+  "body": {
+    "timestamp": "2026-09-24T20:14:04.710958420",
+    "error": "Unauthorized",
+    "status": 401,
+    "message": "Invalid email or password"
+  },
+  "dynamic_fields": ["timestamp"],
+  "notes": "Corrected 2026-09-24: re-verified live, 401 body includes timestamp (see auth-08's note). Identical message to the wrong-password case - the API deliberately does not reveal whether the email exists. Worth asserting that both cases produce the exact same message, as a security-relevant behaviour, not just the same status code."
+}

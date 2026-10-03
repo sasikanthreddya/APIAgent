@@ -1,0 +1,6 @@
+{
+  "method": "GET",
+  "path": "/users/me",
+  "auth": "token:<the newly registered user's own token>",
+  "body": null
+}

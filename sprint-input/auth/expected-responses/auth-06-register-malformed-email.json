@@ -1,0 +1,11 @@
+{
+  "status": 422,
+  "body": {
+    "timestamp": "2026-09-23T19:39:52.713288975",
+    "status": 422,
+    "error": "Unprocessable Entity",
+    "message": "email: must be a well-formed email address"
+  },
+  "dynamic_fields": ["timestamp"],
+  "notes": "Captured live 2026-09-23."
+}

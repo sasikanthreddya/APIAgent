@@ -1,0 +1,8 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+allure-results/
+cp*.txt

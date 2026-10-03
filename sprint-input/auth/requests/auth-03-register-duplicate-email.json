@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "path": "/users/register",
+  "auth": "none",
+  "body": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "<same email as auth-01-register-full-profile>",
+    "password": "Password123!"
+  },
+  "requires": "auth-01-register-full-profile must have run first, using the same email"
+}

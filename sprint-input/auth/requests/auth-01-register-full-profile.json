@@ -1,0 +1,21 @@
+{
+  "method": "POST",
+  "path": "/users/register",
+  "auth": "none",
+  "body": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "jane.doe.<unique>@toolshop.test",
+    "password": "Password123!",
+    "phone": "0612345678",
+    "dob": "1990-05-15",
+    "address": {
+      "street": "12 Main Street",
+      "house_number": "12",
+      "city": "Amsterdam",
+      "state": "NH",
+      "country": "Netherlands",
+      "postal_code": "1011AB"
+    }
+  }
+}

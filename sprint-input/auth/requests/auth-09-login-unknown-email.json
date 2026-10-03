@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "path": "/users/login",
+  "auth": "none",
+  "body": {
+    "email": "nobody.<unique>@toolshop.test",
+    "password": "Password123!"
+  }
+}

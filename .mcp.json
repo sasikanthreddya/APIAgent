@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "toolshop-clone": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ivotoby/openapi-mcp-server",
+        "--openapi-spec", "http://localhost:8070/v3/api-docs",
+        "--api-base-url", "http://localhost:8070",
+        "--name", "toolshop-clone"
+      ]
+    }
+  }
+}
